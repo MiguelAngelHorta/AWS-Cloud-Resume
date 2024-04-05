@@ -1,72 +1,90 @@
 /* Common Styles */
 body {
-    font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
-    margin-bottom: 20px; /* Adjust margin-bottom to add more space at the bottom */
 }
 
-h2, h3, h4, p, ul, ol {
-    font-family: "Saira Extra Condensed", sans-serif;
-    line-height: 1.5;
-    
+h1, h2, h3, z, x, y, p, ul, ol, t {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-h2, h3 {
-    margin-bottom: 0.1rem;
-    font-weight: 700;
+y, ul, ol {
+line-height: 1.5; /* Adjust as needed */
+margin-top: 0rem; /* Adjust the top margin as needed */
+margin-bottom: 0rem; /* Adjust the bottom margin as needed */
+color: #74777a;
+font-size: calc(0.8rem + 0.3vw); /* Base size of 0.7rem with slight adjustment based on viewport width */
 }
 
 h1 {
-    color: #000000;
-    font-size: 2.5rem;
+    font-size: calc(2rem + 2.7vw);
+    margin-top: 0.5rem; /* Adjust the top margin as needed */
+    margin-bottom: 0.1rem; /* Adjust the bottom margin as needed */
+    color: #343a40;
 }
 
-h2, h3 {
-    color: #000000;
-    font-size: 2.2rem; /* Can be adjusted */
-}
-
-h3, p, ul, ol {
-    font-size: 1.2rem;
-}
-
-h4 {
-    color: #000000;
-    font-size: 1rem;
-    font-weight: normal; /* or font-weight: 400; */
-}
-
-p {
-    color: #929292;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
+z .grey-text {
+    color: #707382; /* Make the text color grey */
 }
 
 z {
-    color: #929292;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
+    display: block; /* Make <z> a block-level element */
+    border-bottom: 2px solid #0a4796; /* Add blue line underneath */
+    padding-bottom: 10px; /* Add some space below the line */
+    color:#707382;
+    font-size: calc(.5rem + .7vw);
 }
 
-ul, ol {
-    color: #000000;
-    font-size: 1rem;
-    font-weight: normal; /* or font-weight: 400; */
+x {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 1rem; /* Adjust the top margin as needed */
+    display: block; /* Ensure the element behaves as a block-level element */
+}
+
+
+
+h2 {
+    color: #343a40;
+    font-size: calc(2rem + .3vw); /* Base size of 0.7rem with slight adjustment based on viewport width */
+    margin-top: 0.5rem; /* Adjust the top margin as needed */
+    margin-bottom: 1.4rem; /* Adjust the bottom margin as needed */
+}
+
+h3 {
+    color: #343a40;
+    font-size: calc(1rem + 0.5vw); /* Base size of 1rem with slight adjustment based on viewport width */
+    margin-top: 0.5rem; /* Adjust the top margin as needed */
+}
+
+p {
+    color: #797878;
+    font-size: calc(1rem + 0.3vw); /* Base size of 0.8rem with slight adjustment based on viewport width */
+    font-weight: 700;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem; /* Adjust the bottom margin as needed */
+}
+
+t {
+    color: #0a4796; /* Make the text color blue */
+    font-size: calc(0.8rem + 0.2vw); /* Base size of 0.7rem with slight adjustment based on viewport width */
+    margin-top: 0.5rem; /* Adjust the top margin as needed */
+}
+
+
+
+.blue-text {
+    color: #0a4796; /* Make the text color blue */
 }
 
 .resume-section ul.no-indent {
-    padding-left: 15px;
+    padding-left: 1rem;
 }
 
 
 /* Components */
 .container {
     max-width: 1200px;
-    margin-left: 120px; /* Match the sidebar width */
-    margin-top: 0px; /* Adjust the top margin as needed */
-    padding-top: 0; /* Adjust the top padding as needed */
+    margin-left: 90px; /* Match the sidebar width */
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(215, 204, 204, 0.1);
@@ -76,7 +94,7 @@ ul, ol {
     position: fixed;
     top: 0;
     left: 0;
-    width: 95px; /* Adjust width as needed */
+    width: 80px; /* Adjust width as needed */
     height: 100%;
     background-color: #0a4796; /* Example background color */
     padding: 00px;
@@ -85,15 +103,7 @@ ul, ol {
 
 .resume-section {
     border-bottom: 2px solid #0a4796; /* Add blue border bottom */
-    padding-bottom: 0px; /* Add some space below each section */
-}
-
-.badge {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #0a4796;
-    color: #fff;
-    border-radius: 5px;
+    padding-bottom: 5px; /* Add some space below each section */
 }
 
 .profile-image-container {
@@ -105,10 +115,10 @@ ul, ol {
 .profile-image {
     display: block;
     margin: 0 auto; /* Center the profile image horizontally */
-    width: 70px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
-    border: 4px solid #929292;
+    border: 4px solid #797878;
 }
 
 .social-icons {
@@ -119,9 +129,9 @@ ul, ol {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 3.0rem;
-    width: 3.0rem;
-    background-color: #929292;
+    height: 3rem;
+    width: 3rem;
+    background-color: #797878;
     color: #ffffff;
     border-radius: 100%;
     font-size: 2rem;
@@ -133,28 +143,20 @@ ul, ol {
     color: #000000;
 }
 
-.subheading {
-    color: #000000;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-family: "Saira Extra Condensed", sans-serif;
-    line-height: 1.5;
-}
-
 .header-center {
     text-align: center;
 }
 
-h1 {
-    margin-bottom: 0.2rem; /* Adjust the margin to reduce space between lines */
-    padding-bottom: 5px; /* Add some padding below the blue line for spacing */
-    display: inline-block; /* Ensure the blue line spans the entire width of the h1 */
+.resume-entry {
+    display: flex;
+    justify-content: space-between;
 }
 
-z {
-    display: block; /* Make <z> a block-level element */
-    margin-top: 5px; /* Adjust the margin to reduce space between lines */
-    padding-bottom: 20px; /* Increase padding below the blue line for more space */
-    border-bottom: 2px solid #0a4796; /* Add blue line underneath */
+.job-info h3 {
+    margin-bottom: 0px; /* Adjust the margin-bottom to reduce space */
 }
 
+.date {
+    text-align: right;
+    margin-top: 10px; /* Adjust the margin-bottom to reduce space */
+}
