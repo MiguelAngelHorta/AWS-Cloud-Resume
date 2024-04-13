@@ -11,11 +11,7 @@ This is my attempt at cloud resume challenge in AWS. What is the [Cloud Resume C
  - Terraform
 
 ## Architecture
-<img src="https://github.com/MiguelAngelHorta/AWS-Cloud-Resume/assets/106134627/fdfe76dd-a010-4a7e-a240-e0821bfacd77" alt="Screenshot" style="width: 700px; height: 300px; max-width: 100%; height: auto;">
+<img src="https://github.com/MiguelAngelHorta/AWS-Cloud-Resume/assets/106134627/d4e938e6-765a-448c-8d93-c11d4524bd76" alt="Screenshot" style="width: 700px; height: 300px; max-width: 100%; height: auto;">
 
 
 ## Notes
-
-
-
-
