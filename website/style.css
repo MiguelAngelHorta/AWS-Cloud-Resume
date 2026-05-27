@@ -307,6 +307,16 @@ time {
     color: var(--color-text-muted);
 }
 
+.footer-source {
+    margin-top: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.footer-source a {
+    color: var(--color-accent);
+}
+
 /* ============================================
    Visitor Count
    ============================================ */
@@ -350,4 +360,3 @@ time {
     .cert-tag { border: 1px solid var(--color-border); background: none; }
     .skill-group { background: none; border: 1px solid var(--color-border); }
 }
-
