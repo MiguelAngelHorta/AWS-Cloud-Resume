@@ -14,6 +14,8 @@ Infrastructure managed with Terraform. Frontend auto-deploys via GitHub Actions 
 <img src="https://github.com/MiguelAngelHorta/AWS-Cloud-Resume/assets/106134627/d4e938e6-765a-448c-8d93-c11d4524bd76" alt="Architecture diagram" width="700">
 
 ## Project Structure
+
+```
 ├── website/                   # Frontend (deployed to S3)
 │   ├── index.html
 │   ├── style.css
@@ -26,7 +28,8 @@ Infrastructure managed with Terraform. Frontend auto-deploys via GitHub Actions 
 │   └── lambda/
 │       └── func.py            # Python visitor counter
 └── .github/workflows/
-└── front-end-cicd.yaml    # CI/CD pipeline
+    └── front-end-cicd.yaml    # CI/CD pipeline
+```
 
 ## AWS Services
 
